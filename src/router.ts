@@ -5,7 +5,7 @@ import CountryDetails from './components/CountryDetails.vue';
 import CountryList from './components/CountryList.vue';
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       name: 'country-list',
