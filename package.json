@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.2",
-    "logard": "^0.0.13",
+    "logard": "^1.1.0",
     "sass-embedded": "^1.78.0",
     "typescript": "^5.5.3",
     "vite": "^5.4.1",

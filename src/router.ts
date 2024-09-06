@@ -1,4 +1,4 @@
-import { installRouteLoader } from 'logard';
+import { installRouteLoader } from 'logard/dist/vue-router';
 import { createRouter, createWebHistory } from 'vue-router';
 import { countryDetailLoader, countryFilterLoader, countryListLoader, neighboursLoader } from './loaders';
 import CountryDetails from './components/CountryDetails.vue';
